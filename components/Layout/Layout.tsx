@@ -1,13 +1,14 @@
 import { LayoutProps } from "./type";
 import { Header } from "./../Header";
 import { Footer } from "./../Footer";
+import styles from "./styles.module.scss";
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <>
-      <Header />
+    <div className={styles["layout"]}>
+      <Header className={styles["layout-header"]} />
       <>{children}</>
-      <Footer />
-    </>
+      <Footer className={styles["layout-footer"]} />
+    </div>
   );
 }

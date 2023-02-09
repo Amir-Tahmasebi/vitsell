@@ -1,0 +1,24 @@
+.top-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-item {
+        margin-left: 24px;
+
+        &-link {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .top-menu-item-img {
+                margin-left: 5px;
+
+
+                &~svg {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}

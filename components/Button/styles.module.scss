@@ -1,0 +1,20 @@
+@import './../../styles/variable';
+
+.button {
+    padding: 4px 12px;
+    border-radius: 80px;
+    border: none;
+    font-weight: $bold;
+    font-size: 14px;
+    color: $bg-white;
+}
+
+
+.button-danger {
+    background: $bg-danger-gradient !important;
+}
+
+.button-large{
+    border-radius: 24px;
+    padding: 10px 24px;
+}

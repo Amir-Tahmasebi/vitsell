@@ -1,0 +1,12 @@
+.layout {
+    width: 100%;
+    max-width: 1200px;
+    padding: 32px 0 22px 0;
+    margin: 0 auto;
+
+    &-header {
+        margin-bottom: 16px;
+    }
+
+    &-footer {}
+}
