@@ -26,8 +26,14 @@
     justify-content: flex-end;
 }
 
+.price-medium {
+    .price-price {
+        font-size: 18px;
+    }
+}
 
-.price-percent {
+
+.price-discount {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,5 +55,11 @@
             background-color: $text-lighter;
             z-index: 1;
         }
+    }
+}
+
+.price-discount-medium {
+    .price-discount-value {
+        font-size: 14px !important;
     }
 }

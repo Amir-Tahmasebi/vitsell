@@ -1,0 +1,11 @@
+@import './../../../styles/variable';
+
+.home-slider {
+    background: $bg-gray;
+    padding: 16px;
+    border-radius: 24px;
+    
+    &-card{
+        max-width: 172px;
+    }
+}

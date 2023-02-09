@@ -1,10 +1,11 @@
 import { Layout } from "@/components";
-import { TopBanner } from "./topBanner";
+import { TopBanner, Discounts } from "./";
 
 export function Home() {
   return (
     <Layout>
       <TopBanner />
+      <Discounts />
     </Layout>
   );
 }

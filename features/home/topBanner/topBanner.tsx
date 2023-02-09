@@ -14,7 +14,7 @@ export function TopBanner() {
         price={4343000}
         title="همزن برقی Sanford"
         className={styles["top-banner-card"]}
-        percent={34}
+        discount={34}
       />
       <Image
         src={booloori}
