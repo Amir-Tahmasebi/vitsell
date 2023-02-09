@@ -1,0 +1,16 @@
+.top-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &-item {
+        border-radius: 10px;
+    }
+
+    &-card {
+        height: 373px;
+        max-width: 282px;
+        width: 100%;
+    }
+}

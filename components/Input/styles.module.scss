@@ -6,7 +6,7 @@
     background-color: $bg-gray;
     padding: 12px;
     border-radius: 32px;
-    color: $text-secondary;
+    color: $text-light;
     min-width: 250px;
 }
 
@@ -18,7 +18,7 @@
         top: 50%;
         left: 13px;
         transform: translateY(-50%);
-        color: $text-secondary;
+        color: $text-light;
         font-size: 20px;
     }
 }

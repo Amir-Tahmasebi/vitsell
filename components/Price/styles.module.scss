@@ -1,0 +1,53 @@
+@import './../../styles/variable';
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // width: 100%;
+
+    &-toman {
+        font-weight: $light;
+        font-size: 12px;
+        margin-right: 2px;
+        color: $text-gray;
+    }
+
+    &-price {
+        font-weight: $extra-bold;
+        font-size: 20px;
+        color: $text-secondary;
+    }
+
+}
+
+
+.price-ltr {
+    justify-content: flex-end;
+}
+
+
+.price-percent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-value {
+        position: relative;
+        color: $text-lighter;
+        font-weight: $lighter;
+        font-size: 20px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 1px;
+            background-color: $text-lighter;
+            z-index: 1;
+        }
+    }
+}
