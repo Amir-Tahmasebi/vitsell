@@ -1,0 +1,14 @@
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-items{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    &-banner{}
+}

@@ -1,0 +1,22 @@
+@import './../../styles/variable';
+
+.category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 24px 24px;
+    background-color: $bg-gray;
+    padding: 8px;
+    border-radius: 16px;
+
+    &-img {
+        margin-bottom: 4px;
+    }
+
+    &-text {
+        color: $text-primary;
+        font-weight: $bold;
+        font-size: 14px;
+    }
+}

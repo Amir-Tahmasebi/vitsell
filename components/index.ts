@@ -9,3 +9,4 @@ export * from './TopMenu';
 export * from './BannerCard';
 export * from './Price';
 export * from './WrapperTitle';
+export * from './CategoryCard';

@@ -1,5 +1,5 @@
 import { Layout } from "@/components";
-import { TopBanner, Discounts, DiscountBanner } from "./";
+import { TopBanner, Discounts, DiscountBanner, Categories } from "./";
 
 export function Home() {
   return (
@@ -7,6 +7,7 @@ export function Home() {
       <TopBanner />
       <Discounts />
       <DiscountBanner />
+      <Categories />
     </Layout>
   );
 }

@@ -18,7 +18,7 @@ export function BannerCard({
     size === BannerCardSize.medium && styles["banner-card-medium"],
     className
   );
-  
+
   return (
     <div className={classList}>
       <div className={styles["banner-card-img"]}>
