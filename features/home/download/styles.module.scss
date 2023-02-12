@@ -1,0 +1,31 @@
+@import './../../../styles/variable';
+
+.download {
+    position: relative;
+    background: $bg-danger-gradient;
+    border-radius: 24px;
+    padding: 32px;
+    width: 100%;
+    margin: 168px 0 104px 0;
+
+    &-img {
+        position: absolute;
+        bottom: 0;
+        left: 56px;
+    }
+
+    .download-content {
+        .download-content-title {
+            color: $bg-white;
+            font-weight: $extra-bold;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        &-items {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+}

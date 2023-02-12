@@ -11,3 +11,4 @@ export * as hasanFeri from './hasan-feri.svg';
 export * as bag from './bag.svg';
 export * as dandon from './dandon.svg';
 export * as mandegar from './mandegar.svg';
+export * as downloadMobile from './Mobile (1).svg';
