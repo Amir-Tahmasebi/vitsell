@@ -26,14 +26,18 @@ export function Discounts({}: DiscountsProps) {
 
   return (
     <>
-      <WrapperTitle Icon={<DiscountIcon />} title="تخفیف های ویتسل" isShowMore />
+      <WrapperTitle
+        Icon={<DiscountIcon />}
+        title="تخفیف های ویتسل"
+        isShowMore
+      />
       <div>
         <Slider.Wrapper
           className={styles["home-slider"]}
           dir="rtl"
           slidesPerView={6}
         >
-          <>{renderDiscountItems}</>
+          {renderDiscountItems}
         </Slider.Wrapper>
       </div>
     </>
