@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { Price, PriceDiscount, BannerCardSize } from "@/components";
-
 import styles from "./styles.module.scss";
+import { bookmarkFire } from "@/public";
+
 
 type CardProps = {
   src: any;
@@ -31,6 +32,11 @@ export function Card({ price, src, title, discount }: CardProps) {
           </div>
         )}
       </div>
+      <Image
+        src={bookmarkFire}
+        alt=""
+        className={styles["amazing-card-bookmark"]}
+      />
     </div>
   );
 }

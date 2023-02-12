@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { Navigation } from "swiper";
+import { Navigation, Pagination } from "swiper";
 import { Swiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,19 +14,13 @@ export function Wrapper({
 }: SliderWrapper) {
   return (
     <Swiper
-      modules={[Navigation]}
+      autoplay
+      navigation={true}
+      loop={true}
+      modules={[Navigation, Pagination]}
       className={className}
       slidesPerView={slidesPerView}
-      autoplay
       dir={dir}
-      breakpoints={{
-        // 1400: { slidesPerView: 7 },
-        // 992: { slidesPerView: 3 },
-        // 760: { slidesPerView: 2 },
-        // 220: {
-        //   slidesPerView: 1,
-        // },
-      }}
     >
       {children}
     </Swiper>

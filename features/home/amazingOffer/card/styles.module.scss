@@ -1,6 +1,7 @@
 @import './../../../../styles/variable';
 
 .amazing-card {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -39,5 +40,11 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+    }
+
+    &-bookmark {
+        position: absolute;
+        top: 0;
+        left: 15px;
     }
 }

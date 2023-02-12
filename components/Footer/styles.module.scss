@@ -1,0 +1,105 @@
+@import './../../styles/variable';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &-logo {
+        max-width: 250px;
+
+        &-img {}
+
+        &-title {
+            font-weight: $extra-bold;
+            font-size: 18px;
+            color: $bg-dark;
+            margin-bottom: 4px;
+        }
+
+        &-text {
+            text-align: justify;
+            font-weight: $light;
+            font-size: 14px;
+            color: $text-gray;
+        }
+    }
+
+    &-menu {
+        &-item {
+            font-weight: $light;
+            font-size: 14px;
+            color: $text-gray;
+            margin-bottom: 12px;
+        }
+
+        &-title {
+            font-weight: 900;
+            font-size: 16px;
+            color: $bg-dark;
+        }
+    }
+
+    &-relationship {
+        margin-bottom: 32px;
+
+        &-title {
+            font-weight: 900;
+            font-size: 16px;
+            color: $bg-dark;
+        }
+
+        &-items {
+            margin-top: 16px;
+        }
+
+        &-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: $bg-light;
+            margin-bottom: 16px;
+
+            &-icon {
+                margin-left: 12px;
+                font-size: 24px;
+            }
+
+            &-text {
+                font-weight: $normal;
+                font-size: 12px;
+            }
+        }
+
+        &-app {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            &-icon {
+                margin-left: 12px;
+                color: $bg-light;
+                background-color: $bg-gray;
+                padding: 10px 10px 4px 10px;
+                border-radius: 100%;
+
+                &-svg {
+                    font-size: 22px;
+                }
+            }
+
+        }
+    }
+
+    &-namad {
+        &-img-wrapper {
+            &:first-child {
+                margin-bottom: 8px;
+            }
+
+            background-color: $bg-gray;
+            padding: 12px;
+            border-radius: 16px;
+        }
+    }
+}

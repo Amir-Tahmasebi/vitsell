@@ -3,6 +3,7 @@ import Image from "next/image";
 import { BannerCardProps, BannerCardSize } from "./type";
 import { Price, PriceDiscount } from "./../";
 import styles from "./styles.module.scss";
+import { bookmarkFire } from "@/public";
 
 export function BannerCard({
   src,
@@ -31,6 +32,7 @@ export function BannerCard({
           <PriceDiscount price={price} discount={discount} size={size} />
         )}
       </div>
+      {bookmark && <Image src={bookmarkFire} alt=""  className={styles['banner-card-bookmark']}/>}
     </div>
   );
 }

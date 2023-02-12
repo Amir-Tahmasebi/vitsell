@@ -9,6 +9,7 @@
     align-items: flex-start;
     flex-direction: column;
     cursor: pointer;
+    position: relative;
 
     &-img {
         width: 100%;
@@ -23,6 +24,12 @@
 
     &-price {
         width: 100%;
+    }
+
+    &-bookmark {
+        position: absolute;
+        top: 0;
+        left: 20px;
     }
 }
 
