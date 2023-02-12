@@ -1,0 +1,32 @@
+@import './../../../styles/variable';
+
+.Amazing-offer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-banner {
+        margin: -35px 0 0 24px;
+
+        &-card {
+            height: 368px;
+            width: 282px;
+        }
+
+    }
+
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+
+        &:nth-child(7),
+        &:nth-child(8),
+        &:nth-child(9) {
+            // margin: 0 0 24px 24px;
+            margin: 0;
+        }
+    }
+}

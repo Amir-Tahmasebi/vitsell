@@ -7,3 +7,4 @@ export * as logo from './Logo.svg';
 export * as shoes from './shoes.svg';
 export * as bannerCategory from './banner-category.svg';
 export * as superMarket from './super-market.svg';
+export * as hasanFeri from './hasan-feri.svg';
