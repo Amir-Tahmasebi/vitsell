@@ -8,3 +8,6 @@ export * as shoes from './shoes.svg';
 export * as bannerCategory from './banner-category.svg';
 export * as superMarket from './super-market.svg';
 export * as hasanFeri from './hasan-feri.svg';
+export * as bag from './bag.svg';
+export * as dandon from './dandon.svg';
+export * as mandegar from './mandegar.svg';

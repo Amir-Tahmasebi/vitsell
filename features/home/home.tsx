@@ -6,6 +6,7 @@ import {
   Categories,
   AmazingOffer,
   BestSeller,
+  BottomBanner
 } from "./";
 
 export function Home() {
@@ -17,6 +18,7 @@ export function Home() {
       <Categories />
       <AmazingOffer />
       <BestSeller />
+      <BottomBanner />
     </Layout>
   );
 }

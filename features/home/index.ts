@@ -4,5 +4,6 @@ export * from './discountBanner';
 export * from './categories';
 export * from './amazingOffer';
 export * from './bestSeller';
+export * from './bottomBanner';
 export * from './home';
 export * from './api';
